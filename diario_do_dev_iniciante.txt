@@ -1,0 +1,61 @@
+# DIÁRIO DO DEV INICIANTE
+
+
+
+python = []
+
+kotlin = []
+
+html = []
+
+swift = []
+
+linguagem = []
+
+
+
+print("Escolha a linguagem digitando o número da mesma:")
+
+print("1-python \n2-kotlin \n3-html \n4-swift")
+
+
+
+linguagem_escolhida = input(str())
+
+print("Oque deseja: \n1-acessar \n2-armazenar")
+
+decisao = input(str())
+
+if decisao == "1" and linguagem_escolhida == "1":
+    print(python)
+
+elif decisao == "1" and linguagem_escolhida == "2":
+    print(kotlin)
+
+elif decisao == "1" and linguagem_escolhida == "3":
+    print(html)
+    
+elif decisao == "1" and linguagem_escolhida == "4":
+    print(swift)
+
+
+if decisao == "2" and linguagem_escolhida == "1":
+    print("Digite a informação a ser armazenada:")
+    python.append(input())
+    print(python)
+    
+elif decisao == "2" and linguagem_escolhida == "2":
+    print("Digite a informação a ser armazenada:")
+    kotlin.append(input())
+    print(kotlin)
+    
+elif decisao == "2" and linguagem_escolhida == "3":
+    print("Digite a informação a ser armazenada:")
+    html.append(input())
+    print(html)
+    
+elif decisao == "2" and linguagem_escolhida == "4":
+    print("Digite a informação a ser armazenada:")
+    swift.append(input())
+    print(swift)
+    
